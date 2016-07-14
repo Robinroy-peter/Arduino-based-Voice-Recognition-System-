@@ -1,10 +1,12 @@
-#####
+///////////////////////////////////////////////////////////
+//  Coded by Robinroy Peter    14/07/2016                //
+///////////////////////////////////////////////////////////
 String a;
 
 void setup() {
     
     Serial.begin(9600); // opens serial port, sets data rate to 9600 bps
-    Serial2.begin(9600);
+    Serial2.begin(9600); //for blutooth module
     pinMode(2,OUTPUT);
     pinMode(3,OUTPUT);
     pinMode(4,OUTPUT);
